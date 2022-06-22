@@ -4,6 +4,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/901c8a4cd2.js"
+            crossorigin="anonymous"
+        ></script>
         <link rel="stylesheet" href="./styles.css" />
         <title>portfolio</title>
     </head>
@@ -28,7 +32,7 @@
             </aside>
         </nav>
 
-        <section class="profile">
+        <article class="profile">
             <img
                 class="profile__image"
                 src="./img/profil-pic.jpg"
@@ -36,11 +40,26 @@
             />
             <h1 class="profile__name">Leo Volwahsen</h1>
             <h1 class="profile__title">Frontend Developer</h1>
-        </section>
+            <span class="profile__social-media-icons">
+                <section class="profile__social-media-icons__linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </section>
+                <section class="profile__social-media-icons__github">
+                    <i class="fa-brands fa-github-square"></i>
+                </section>
+                <section class="profile__social-media-icons__slack">
+                    <i class="fa-brands fa-slack"></i></section
+            ></span>
+        </article>
 
         <section class="skills">
             <h1 class="skills__aboutme">About Me</h1>
-            <h3>I am Leo Volwahsen,</h3>
+            <p class="skills__text">
+                I am Leo Volwahsen, frontend developer based in Germany, Berlin.
+                I have good understanding in HTML, CSS and Javascrit as well as
+                Python. If I peaked your interrest please feel free to contact
+                me.
+            </p>
         </section>
     </body>
 </html>
