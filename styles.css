@@ -168,3 +168,27 @@ body {
     height: 30%;
     margin-left: 5rem;
 }
+.skills__list__list-items__progressbar-html__label {
+    position: absolute;
+    left: 15em;
+    top: 0.8em;
+    color: var(--white);
+}
+.skills__list__list-items__progressbar-css__label {
+    position: absolute;
+    left: 15em;
+    top: 4.1em;
+    color: var(--white);
+}
+.skills__list__list-items__progressbar-js__label {
+    position: absolute;
+    left: 15em;
+    top: 7.1em;
+    color: black;
+}
+.skills__list__list-items__progressbar-py__label {
+    position: absolute;
+    left: 15em;
+    top: 10.1em;
+    color: var(--white);
+}
