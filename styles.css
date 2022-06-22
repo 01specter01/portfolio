@@ -26,14 +26,15 @@ body {
 .side-menue__link-wrapper {
     display: flex;
     flex-direction: column;
+    width: 80%;
     border-radius: 3em;
-    margin-left: 1vw;
-    margin-top: 8vh;
+    margin-left: 3vw;
+    margin-top: 15vh;
     border: 0.1em solid black;
     background-color: var(--white);
 }
 .side-menue__links-wrapper__link {
-    width: 80%;
+    width: 100%;
     height: 4em;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
@@ -46,7 +47,7 @@ body {
     border: 0.05em solid black;
 }
 .side-menue__links-wrapper__link:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     background-color: gray;
 }
 /* END ASIDE SECTION */
