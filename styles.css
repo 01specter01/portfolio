@@ -34,11 +34,11 @@ body {
     border-radius: 3em;
     margin-left: 3vw;
     margin-top: 15vh;
-    border: 0.1em solid black;
 }
 .side-menue__links-wrapper__link {
     width: 100%;
     height: 4em;
+    padding-top: 2.5rem;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
     font-size: 2rem;
@@ -47,11 +47,13 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 1em;
-    border: 0.05em solid white;
+    border: 0.05em solid black;
     background-color: #0a3e5c;
 }
 .side-menue__links-wrapper__link:hover {
     transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    text-shadow: 2px 2px 4px black, 4px 4px 6px black;
     background-color: #0873fa;
 }
 /* END NAV SECTION */
@@ -70,7 +72,7 @@ body {
 
     text-align: center;
     text-decoration: none;
-    border: 0.05em solid white;
+    border: 0.05em solid black;
 }
 .profile__name {
     display: flex;
@@ -81,7 +83,7 @@ body {
     font-weight: lighter;
     text-align: center;
     text-decoration: none;
-    border: 0.05em solid white;
+    border: 0.05em solid black;
 }
 .profile__title {
     display: flex;
@@ -93,7 +95,7 @@ body {
 
     text-align: center;
     text-decoration: none;
-    border: 0.05em solid white;
+    border: 0.05em solid black;
 }
 .profile__social-media-icons-wrapper {
     display: flex;
@@ -102,7 +104,7 @@ body {
     margin-left: 7em;
     width: 10rem;
     font-size: xx-large;
-    border: 0.05em solid white;
+    border: 0.05em solid black;
     gap: 5px;
 }
 
@@ -118,7 +120,7 @@ body {
 
     text-align: center;
     text-decoration: none;
-    border: 0.05em solid white;
+    border: 0.05em solid black;
 }
 
 .skills__text {
@@ -130,17 +132,16 @@ body {
 
     text-align: center;
     text-decoration: none;
-    border: 0.05em solid white;
+    border: 0.05em solid black;
 }
 
 /* END SECTION SECTION */
 .skills__list {
     position: relative;
-    border: 0.05em solid white;
+    margin-top: 10em;
     width: 35rem;
 }
 .skills__list__list-items {
-    border: 0.05em solid white;
     width: 35rem;
     height: 3rem;
 }
@@ -180,16 +181,16 @@ body {
 .skills__list__list-items__progressbar-css__label {
     position: absolute;
     left: 15em;
-    top: 4.1em;
+    top: 3em;
 }
 .skills__list__list-items__progressbar-js__label {
     position: absolute;
-    color: white;
+    color: black;
     left: 15em;
-    top: 7.1em;
+    top: 6.1em;
 }
 .skills__list__list-items__progressbar-py__label {
     position: absolute;
     left: 15em;
-    top: 10.1em;
+    top: 9.2em;
 }
