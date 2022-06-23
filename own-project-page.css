@@ -60,58 +60,17 @@ body {
 
 /* START ARTICLE SECTION */
 
-.profile__image {
+.python-pdf {
     display: flex;
+    width: 50vw;
+    height: 40vh;
     justify-content: center;
     object-fit: cover;
-    width: 60%;
-    aspect-ratio: 1;
-    margin-left: 11em;
-    margin-left: 11em;
-    font-weight: lighter;
-
-    text-align: center;
-    text-decoration: none;
+    width: 279%;
     border: 0.05em solid black;
 }
-.profile__name {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    margin-left: 2.5em;
-    margin-left: 2.5em;
-    font-weight: lighter;
-    text-align: center;
-    text-decoration: none;
-    border: 0.05em solid black;
+.carousel-inner {
+    width: 20em;
+    height: 100%;
 }
-.profile__title {
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    margin-left: 7em;
-    margin-left: 7em;
-    font-weight: lighter;
-
-    text-align: center;
-    text-decoration: none;
-    border: 0.05em solid black;
-}
-.profile__social-media-icons-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-left: 7em;
-    margin-left: 7em;
-    width: 15rem;
-    font-size: xx-large;
-    border: 0.05em solid black;
-    gap: 2em;
-}
-.profile__social-media-icons-wrapper__icon:hover {
-    transform: rotateX(360deg) rotateY(360deg) scale(5);
-
-    transition-duration: 3s;
-    color: #0873fa;
-}
-
 /* END ARTICLE SECTION */
