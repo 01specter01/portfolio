@@ -64,7 +64,28 @@ body {
 /* END NAV SECTION */
 
 /* START ARTICLE SECTION */
-.python {
+
+.slidershow {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* END ARTICLE SECTION */
+
+.python-text {
+    min-width: 300px;
+    width: 30%;
+    flex-grow: 1;
+    height: 100%;
+    background-color: orange;
+}
+/* .python {
     display: flex;
     align-items: center;
     flex-grow: 1;
@@ -77,29 +98,4 @@ body {
 }
 .carousel-item {
     padding: 20px;
-}
-/* .python__carousel-slide {
-    display: flex;
-    justify-content: center;
-    object-fit: cover;
-    width: 60%;
-    min-height: 200%;
-
-    margin-left: 11em;
-    margin-left: 11em;
-    font-weight: lighter;
-
-    text-align: center;
-    text-decoration: none;
-    border: 0.05em solid black;
 } */
-
-/* END ARTICLE SECTION */
-
-.python-text {
-    min-width: 300px;
-    width: 30%;
-    flex-grow: 1;
-    height: 100%;
-    background-color: orange;
-}
