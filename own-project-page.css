@@ -76,8 +76,7 @@ body {
     min-width: 100px;
 }
 .carousel-item {
-    padding: 4px;
-    border: 5px solid red;
+    padding: 20px;
 }
 /* .python__carousel-slide {
     display: flex;
