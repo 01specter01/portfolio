@@ -56,7 +56,7 @@ body {
     background-color: #0a3e5c;
 }
 .side-menue__links-wrapper__link:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
     transition-timing-function: ease-in-out;
     text-shadow: 2px 2px 4px black, 4px 4px 6px black;
     background-color: #0873fa;
