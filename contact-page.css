@@ -209,18 +209,12 @@ body {
 
 /* START CONTENT SECTION */
 
-.content-wrapper {
+.grid-wrapper {
     display: grid;
-    grid-template-rows: 1fr, 1fr;
-    grid-template-rows: 1fr, 1fr;
-    height: 10em;
-    width: 10em;
-    column-gap: 10em;
-    row-gap: 10em;
-    place-items: center;
-    background-color: orange;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20em;
+    align-items: center;
 }
-.content-wrapper__icons {
-    background-size: 400px;
-}
+
 /* END OF CONTENT SECTION */
