@@ -73,7 +73,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 12em;
-    grid-row-gap: -em;
     align-items: center;
 }
 .grid-wrapper__icons {

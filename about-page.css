@@ -67,24 +67,18 @@ body {
 
 .profile__image {
     display: flex;
-    justify-content: center;
     object-fit: cover;
     width: 60%;
     aspect-ratio: 1;
     margin-left: 11em;
     margin-left: 11em;
-    font-weight: lighter;
-
-    text-align: center;
-    text-decoration: none;
     border: 0.05em solid black;
 }
 .profile__name {
     display: flex;
     justify-content: center;
-    width: 80%;
-    margin-left: 2.5em;
-    margin-left: 2.5em;
+    width: 50%;
+    margin: 20px 220px 20px 220px;
     font-weight: lighter;
     text-align: center;
     text-decoration: none;
@@ -94,8 +88,7 @@ body {
     display: flex;
     justify-content: center;
     width: 40%;
-    margin-left: 7em;
-    margin-left: 7em;
+    margin: 80px 270px 20px 270px;
     font-weight: lighter;
 
     text-align: center;
@@ -105,8 +98,7 @@ body {
 .profile__social-media-icons-wrapper {
     display: flex;
     justify-content: center;
-    margin-left: 7em;
-    margin-left: 7em;
+    margin: 80px 330px 20px 330px;
     width: 15rem;
     font-size: xx-large;
     border: 0.05em solid black;
