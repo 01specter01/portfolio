@@ -57,6 +57,7 @@ body {
 }
 .side-menue__links-wrapper__link:hover {
     transform: scale(1.1);
+    color: var(--white);
     transition-timing-function: ease-in-out;
     text-shadow: 2px 2px 4px black, 4px 4px 6px black;
     background-color: var(--side-menue-col);
@@ -143,4 +144,5 @@ input[name="r"] {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 15em;
 }
