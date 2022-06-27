@@ -21,45 +21,7 @@ body {
     color: black;
     font-weight: bolder;
 }
-
-/* (ALL 3 HTML PAGES SAME CSS) START SIDEMENUE SECTION */
-
-.menue-btn {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-    border: solid 3px #fff;
-}
-.menue-btn__burger {
-    width: 50px;
-    height: 6px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px brown;
-    transition: all 0.5s ease-in-out;
-}
-.menue-btn__burger::before,
-.menue-btn__burger::after {
-    content: "";
-    position: absolute;
-    width: 50px;
-    height: 6px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px brown;
-}
-.menue-btn__burger::before {
-    transform: translateY(-16px);
-}
-.menue-btn__burger::after {
-    transform: translateY(16px);
-}
-
+/* (ALL 3 HTML PAGES SAME CSS) START NAV SECTION */
 .side-menue {
     display: flex;
     flex-direction: column;
@@ -84,7 +46,6 @@ body {
     align-items: center;
     width: 100%;
     height: 4em;
-
     font-size: 2vw;
     font-weight: lighter;
     color: var(--white);
