@@ -6,6 +6,7 @@
 :root {
     --side-menue-col: #0873fa;
     --white: white;
+    --darkblue: #0a3e5c;
 }
 html,
 body {
@@ -22,6 +23,11 @@ body {
 }
 /* (ALL 3 HTML PAGES SAME CSS) START NAV SECTION */
 .side-menue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
     width: 100%;
     height: 100vh;
     background-color: var(--side-menue-col);
@@ -32,29 +38,28 @@ body {
     flex-direction: column;
     width: 80%;
     border-radius: 3em;
-    margin-left: 3vw;
-    margin-top: 15vh;
+    gap: 50px;
 }
 .side-menue__links-wrapper__link {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
     height: 4em;
-    padding-top: 2.5rem;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
-    font-size: 2rem;
+    font-size: 2vw;
     font-weight: lighter;
     color: var(--white);
     text-align: center;
     text-decoration: none;
     border-radius: 1em;
     border: 0.05em solid black;
-    background-color: #0a3e5c;
+    background-color: var(--darkblue);
 }
 .side-menue__links-wrapper__link:hover {
     transform: scale(1.1);
     transition-timing-function: ease-in-out;
     text-shadow: 2px 2px 4px black, 4px 4px 6px black;
-    background-color: #0873fa;
+    background-color: var(--side-menue-col);
 }
 /* END NAV SECTION */
 
