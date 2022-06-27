@@ -64,14 +64,16 @@ body {
 }
 /* END NAV SECTION */
 
-/* START ARTICLE SECTION */
+/* START IMAGE SECTION */
 .slider {
     border: solid var(--darkblue) 10px;
-    width: 15vw;
+    width: 15em;
     overflow: hidden;
+    margin-left: 5em;
+    margin-top: 1.5em;
 }
 .slider:hover {
-    transform: scale(1.8);
+    transform: scale(2.2);
 }
 .slidershow {
     width: 700px;
@@ -126,4 +128,20 @@ input[name="r"] {
 }
 #r3:checked ~ .s1 {
     margin-left: -40%;
+}
+
+/* END IMAGE SECTION */
+
+.python-text {
+    position: absolute;
+    right: 0em;
+    height: 100vh;
+    width: 30vw;
+    padding: 3em;
+    border: 0.05em solid black;
+}
+.python-text__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
