@@ -67,6 +67,7 @@ body {
 .slider {
     border: solid red 10px;
     width: 15vw;
+    overflow: hidden;
 }
 .slider:hover {
     transform: scale(2);
@@ -95,10 +96,10 @@ body {
     margin: 6px;
     cursor: pointer;
     transition: 0.4s;
+    z-index: 1;
+    background-color: rgb(255, 123, 0);
 }
-.bar:hover {
-    background-color: orange;
-}
+
 input[name="r"] {
     position: absolute;
     visibility: hidden;
@@ -119,13 +120,10 @@ input[name="r"] {
 
 #r1:checked ~ .s1 {
     margin-left: 0;
-    z-index: 1;
 }
 #r2:checked ~ .s1 {
     margin-left: -20%;
-    z-index: 1;
 }
 #r3:checked ~ .s1 {
     margin-left: -40%;
-    z-index: 1;
 }
