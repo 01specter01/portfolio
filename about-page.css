@@ -139,6 +139,8 @@ body {
 }
 
 /* END SECTION SECTION */
+
+/* START SKILLS SECTION */
 .skills__list {
     position: relative;
     margin-top: 10em;
@@ -197,3 +199,4 @@ body {
     left: 15em;
     top: 9.2em;
 }
+/* END SKILLS SECTION */

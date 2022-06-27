@@ -131,7 +131,7 @@ input[name="r"] {
 }
 
 /* END IMAGE SECTION */
-
+/* START TEXT SECTION */
 .python-text {
     position: absolute;
     right: 0em;
@@ -146,3 +146,4 @@ input[name="r"] {
     align-items: center;
     margin-top: 15em;
 }
+/* END TEXT SECTION */
