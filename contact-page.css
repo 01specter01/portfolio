@@ -21,7 +21,7 @@ body {
     color: black;
     font-weight: bolder;
 }
-/* (ALL 3 HTML PAGES SAME CSS) START NAV SECTION */
+/* (ALL 3 HTML PAGES SAME CSS) START SIDEMENUE SECTION */
 .side-menue {
     display: flex;
     flex-direction: column;
@@ -62,159 +62,28 @@ body {
     text-shadow: 2px 2px 4px black, 4px 4px 6px black;
     background-color: var(--side-menue-col);
 }
-/* 
-
-/* START ARTICLE SECTION */
-
-.profile__image {
-    display: flex;
-    justify-content: center;
-    object-fit: cover;
-    width: 60%;
-    aspect-ratio: 1;
-    margin-left: 11em;
-    margin-left: 11em;
-    font-weight: lighter;
-
-    text-align: center;
-    text-decoration: none;
-    border: 0.05em solid black;
-}
-.profile__name {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    margin-left: 2.5em;
-    margin-left: 2.5em;
-    font-weight: lighter;
-    text-align: center;
-    text-decoration: none;
-    border: 0.05em solid black;
-}
-.profile__title {
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    margin-left: 7em;
-    margin-left: 7em;
-    font-weight: lighter;
-
-    text-align: center;
-    text-decoration: none;
-    border: 0.05em solid black;
-}
-.profile__social-media-icons-wrapper {
-    display: flex;
-    justify-content: center;
-    margin-left: 7em;
-    margin-left: 7em;
-    width: 15rem;
-    font-size: xx-large;
-    border: 0.05em solid black;
-    gap: 2em;
-}
-.profile__social-media-icons-wrapper__icon:hover {
-    transform: rotateX(360deg) rotateY(360deg) scale(5);
-
-    transition-duration: 3s;
-    color: #0873fa;
-}
-
-/* END ARTICLE SECTION */
-
-/* START SECTION SECTION */
-.skills__aboutme {
-    width: 80%;
-    height: 10%;
-    padding: 2rem;
-    font-size: 1.5rem;
-    font-weight: lighter;
-
-    text-align: center;
-    text-decoration: none;
-    border: 0.05em solid black;
-}
-
-.skills__text {
-    width: 80%;
-    height: auto;
-    padding: 2rem;
-    font-size: 1.5rem;
-    font-weight: lighter;
-
-    text-align: center;
-    text-decoration: none;
-    border: 0.05em solid black;
-}
-
-/* END SECTION SECTION */
-.skills__list {
-    position: relative;
-    margin-top: 10em;
-    width: 35rem;
-}
-.skills__list__list-items {
-    width: 35rem;
-    height: 3rem;
-}
-.skills__list__list-items__progressbar-html {
-    position: absolute;
-    top: -1.1em;
-    width: 60%;
-    height: 30%;
-    margin-left: 5.5rem;
-}
-.skills__list__list-items__progressbar-css {
-    position: absolute;
-    top: 1.8em;
-    width: 60%;
-    height: 30%;
-    margin-left: 6.48rem;
-}
-.skills__list__list-items__progressbar-js {
-    position: absolute;
-    top: 4.9em;
-    width: 60%;
-    height: 30%;
-    margin-left: 3.07rem;
-}
-.skills__list__list-items__progressbar-py {
-    position: absolute;
-    top: 7.9em;
-    width: 60%;
-    height: 30%;
-    margin-left: 4.86rem;
-}
-.skills__list__list-items__progressbar-html__label {
-    position: absolute;
-    left: 15em;
-    top: 0.1em;
-}
-.skills__list__list-items__progressbar-css__label {
-    position: absolute;
-    left: 15em;
-    top: 3em;
-}
-.skills__list__list-items__progressbar-js__label {
-    position: absolute;
-    color: black;
-    left: 15em;
-    top: 6.1em;
-}
-.skills__list__list-items__progressbar-py__label {
-    position: absolute;
-    left: 15em;
-    top: 9.2em;
-}
+/* END SIDEMENUE */
 
 /* START CONTENT SECTION */
 
 .grid-wrapper {
+    margin-left: 28em;
+    margin-right: 28em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 20em;
+    grid-column-gap: 12em;
+    grid-row-gap: -em;
     align-items: center;
 }
-
+.grid-wrapper__icons {
+    color: var(--darkblue);
+}
+label {
+    color: var(--darkblue);
+}
+.grid-wrapper__icons:hover {
+    transform: scale(1.3);
+    transition-timing-function: ease-in-out;
+}
 /* END OF CONTENT SECTION */
