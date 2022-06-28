@@ -1,0 +1,218 @@
+/* END NAV SECTION */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --side-menue-col: #0873fa;
+  --white: white;
+  --darkblue: #0a3e5c;
+}
+
+html,
+body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+}
+
+/* (ALL 3 HTML PAGES SAME CSS) START NAV SECTION */
+.side-menue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  width: 25%;
+  height: 100vh;
+  background-color: var(--side-menue-col);
+  border: 0.05em solid black;
+}
+
+.side-menue__link-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border-radius: 3em;
+  gap: 50px;
+}
+
+.side-menue__links-wrapper__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4em;
+  font-size: 2vw;
+  font-weight: lighter;
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 1em;
+  border: 0.05em solid black;
+  background-color: var(--darkblue);
+}
+
+.side-menue__links-wrapper__link:hover {
+  transform: scale(1.1);
+  color: var(--white);
+  transition-timing-function: ease-in-out;
+  text-shadow: 2px 2px 4px black, 4px 4px 6px black;
+  background-color: var(--side-menue-col);
+}
+
+/* END NAV SECTION */
+/* START ARTICLE SECTION */
+.profile__image {
+  display: flex;
+  object-fit: cover;
+  width: 60%;
+  aspect-ratio: 1;
+  margin-left: 11em;
+  margin-left: 11em;
+  border: 0.05em solid black;
+}
+
+.profile__name {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: 20px 220px 20px 220px;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  border: 0.05em solid black;
+}
+
+.profile__title {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: 80px 270px 20px 270px;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  border: 0.05em solid black;
+}
+
+.profile__social-media-icons-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 80px 330px 20px 330px;
+  width: 15rem;
+  font-size: xx-large;
+  border: 0.05em solid black;
+  gap: 2em;
+}
+
+.profile__social-media-icons-wrapper__icon:hover {
+  transform: rotateX(360deg) rotateY(360deg) scale(5);
+  transition-duration: 3s;
+  color: #0873fa;
+}
+
+/* END ARTICLE SECTION */
+/* START SECTION SECTION */
+.skills__aboutme {
+  width: 80%;
+  height: 10%;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  border: 0.05em solid black;
+}
+
+.skills__text {
+  width: 80%;
+  height: auto;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  border: 0.05em solid black;
+}
+
+/* END SECTION SECTION */
+/* START SKILLS SECTION */
+.skills__list {
+  position: relative;
+  margin-top: 10em;
+  width: 35rem;
+}
+
+.skills__list__list-items {
+  width: 35rem;
+  height: 3rem;
+}
+
+.skills__list__list-items__progressbar-html {
+  position: absolute;
+  top: -1.1em;
+  width: 60%;
+  height: 30%;
+  margin-left: 5.5rem;
+}
+
+.skills__list__list-items__progressbar-css {
+  position: absolute;
+  top: 1.8em;
+  width: 60%;
+  height: 30%;
+  margin-left: 6.48rem;
+}
+
+.skills__list__list-items__progressbar-js {
+  position: absolute;
+  top: 4.9em;
+  width: 60%;
+  height: 30%;
+  margin-left: 3.07rem;
+}
+
+.skills__list__list-items__progressbar-py {
+  position: absolute;
+  top: 7.9em;
+  width: 60%;
+  height: 30%;
+  margin-left: 4.86rem;
+}
+
+.skills__list__list-items__progressbar-html__label {
+  position: absolute;
+  left: 15em;
+  top: 0.1em;
+}
+
+.skills__list__list-items__progressbar-css__label {
+  position: absolute;
+  left: 15em;
+  top: 3em;
+}
+
+.skills__list__list-items__progressbar-js__label {
+  position: absolute;
+  color: black;
+  left: 15em;
+  top: 6.1em;
+}
+
+.skills__list__list-items__progressbar-py__label {
+  position: absolute;
+  left: 15em;
+  top: 9.2em;
+}
+
+/* END SKILLS SECTION */
+
+/*# sourceMappingURL=about-page.css.map */

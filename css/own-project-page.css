@@ -1,0 +1,168 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --side-menue-col: #0873fa;
+  --white: white;
+  --darkblue: #0a3e5c;
+}
+
+html,
+body {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+}
+
+/* (ALL 3 HTML PAGES SAME CSS) START NAV SECTION */
+.side-menue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  width: 25%;
+  height: 100vh;
+  background-color: var(--side-menue-col);
+  border: 0.05em solid black;
+}
+
+.side-menue__link-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border-radius: 3em;
+  gap: 50px;
+}
+
+.side-menue__links-wrapper__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4em;
+  font-size: 2vw;
+  font-weight: lighter;
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 1em;
+  border: 0.05em solid black;
+  background-color: var(--darkblue);
+}
+
+.side-menue__links-wrapper__link:hover {
+  transform: scale(1.1);
+  color: var(--white);
+  transition-timing-function: ease-in-out;
+  text-shadow: 2px 2px 4px black, 4px 4px 6px black;
+  background-color: var(--side-menue-col);
+}
+
+/* END NAV SECTION */
+/* START IMAGE SECTION */
+.slider {
+  border: solid var(--darkblue) 10px;
+  width: 15em;
+  overflow: hidden;
+  margin-left: 5em;
+  margin-top: 1.5em;
+}
+
+.slider:hover {
+  transform: scale(2.2);
+}
+
+.slidershow {
+  width: 700px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.middle {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.bar {
+  width: 50px;
+  height: 10px;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+  z-index: 1;
+  background-color: var(--side-menue-col);
+}
+
+input[name=r] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.slides {
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide {
+  width: 20%;
+  transition: 0.6s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+  margin-left: -20%;
+}
+
+#r3:checked ~ .s1 {
+  margin-left: -40%;
+}
+
+/* END IMAGE SECTION */
+/* START TEXT SECTION */
+.python-text {
+  position: absolute;
+  right: 0em;
+  height: 100vh;
+  width: 30vw;
+  padding: 3em;
+  border: 0.05em solid black;
+}
+
+.python-text__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15em;
+}
+
+/* END TEXT SECTION */
+
+/*# sourceMappingURL=own-project-page.css.map */
